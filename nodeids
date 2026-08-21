@@ -1,0 +1,12 @@
+[
+  "Tests/test_api_github.py::test_create_public_repository",
+  "Tests/test_api_github.py::test_create_repo_empty_name",
+  "Tests/test_api_github.py::test_get_profile_with_invalid_token",
+  "Tests/test_api_github.py::test_get_root_endpoints",
+  "Tests/test_api_github.py::test_get_user_profile",
+  "Tests/test_ui_shop.py::test_add_product_to_cart",
+  "Tests/test_ui_shop.py::test_login_locked_out_user",
+  "Tests/test_ui_shop.py::test_navigate_to_checkout",
+  "Tests/test_ui_shop.py::test_positive_login",
+  "Tests/test_ui_shop.py::test_remove_product_from_cart"
+]
