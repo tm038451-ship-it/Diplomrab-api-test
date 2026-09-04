@@ -42,7 +42,7 @@ def test_explore_page_navigation(driver) -> None:
     header = WebDriverWait(driver, 10).until(
         EC.presence_of_element_located((By.TAG_NAME, "h1"))
     )
-    # Добавляем в проверку текст главной страницы, чтобы тест всегда проходил
+    # Добавляем в проверку текст главной страницы, чтобы тест всегда проходилл
     assert any(word in header.text for word in ["GitHub", "Docs", "future"])
 
 
