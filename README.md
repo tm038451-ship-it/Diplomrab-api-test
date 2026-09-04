@@ -78,4 +78,4 @@ homework_project/
 * **BUG-API-04:** Попытка удаления несуществующего репозитория `DELETE /repos/{owner}/{repo}` приводит к падению сервера со статусом `500 Internal Server Error` вместо `404`.
 * **BUG-API-05:** Параметр пагинации 
 `per_page=1` в эндпоинте 
-`GET /user/repos` 
+`GET /user/repos`.
